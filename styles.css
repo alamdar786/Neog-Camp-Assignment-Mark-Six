@@ -67,14 +67,20 @@ button {
 }
 
 
-/* 
+
 textarea {
-    
-} */
+    display: block;
+    width: 100%;
+    font-size: large;
+    font-family: inherit;
+    margin-top: 1rem;
+    height: 20vh;
+
+}
 
 #output {
     border: 1px solid var(--black-color);
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     padding: 1rem;
     font-size: large;
